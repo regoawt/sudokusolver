@@ -143,8 +143,7 @@ while current_empties > 0:
 
     elif match == True:
 
-        display_board = board
-        display_board[index] = trial
+        board[index] = trial
         trial +=1
 
 print(board)
